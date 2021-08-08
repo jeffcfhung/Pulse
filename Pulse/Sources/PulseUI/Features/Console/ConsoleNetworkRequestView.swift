@@ -97,7 +97,7 @@ struct ConsoleNetworkRequestView: View {
         #if os(tvOS)
         20
         #else
-        10
+        return 10
         #endif
     }
 }
