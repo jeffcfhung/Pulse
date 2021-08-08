@@ -93,8 +93,6 @@ struct ConsoleNetworkRequestView: View {
         #endif
     }
 
-
-
     private var circleSize: CGFloat {
         #if os(tvOS)
         20
